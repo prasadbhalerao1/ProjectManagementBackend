@@ -1,0 +1,19 @@
+{
+  "name": "04_project_management",
+  "version": "1.0.0",
+  "description": "Project Management app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "backend",
+    "API"
+  ],
+  "author": "Prasad Bhalerao",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
