@@ -5,3 +5,5 @@
 
 mongoose whenever express wanna talk to mongoDB it talks via the mongoose
 
+cors cross origin resourse sharing 
+<br>
