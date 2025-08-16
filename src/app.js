@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 
+
 const app = express();
 
 app.use(express.json({ limit: "16kb" }));
@@ -16,9 +17,15 @@ app.use(
   })
 );
 
+// Import the routes
+import healthCheckRouter from "./routes/healthcheck.routes.js";
+
+app.use("/api/v1/healthcheck", healthCheckRouter)
+
 
 app.get("/", (req, res) => {
   res.send("Welcome");
 });
 
 export default app;
+
